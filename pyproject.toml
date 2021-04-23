@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aeta-earthquake-predictor"
+version = "0.1.0"
+description = "Team effort to build an earthquake predictor for the AETA competition"
+authors = ["Ross Kohler <rdkohler@umich.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyterlab = "^3.0.14"
+python-dotenv = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
